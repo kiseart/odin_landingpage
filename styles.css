@@ -170,16 +170,17 @@ a:hover, a:visited, a:link, a:active
     justify-content: space-between;
     background-color: #3f80e3;
     border-radius: 7px;
-    margin-top: 10px;
     padding: 50px;
     padding-left: 100px;
     padding-right: 100px;
     color: whitesmoke;
+    margin-top: 70px;
 }
 
 .queuetitle{
     font-size: 24px;
     font-weight: 1000;
+    margin-bottom: 4px;
 }
 
 .queuebutton{
