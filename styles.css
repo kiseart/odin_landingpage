@@ -1,3 +1,157 @@
 * {
-    border: 2px solid red;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.bg{
+    justify-content: center;
+    display: flex;
+    padding: 0px;
+}
+
+.padding{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.main-space{
+    width: 1450px;
+    justify-items: center;
+    background-color: whitesmoke;
+}
+
+.bighead{
+    display: flex;
+    background-color: #1e293d;
+    flex-direction: column;
+    color:whitesmoke;
+    padding-bottom: 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.menu{
+    font-size: 14px;
+    color: antiquewhite;
+    padding-top: 5px;
+    display: flex;
+}
+
+.menu-item{
+    font-size: 18px;
+    margin-left: 20px;
+    color: #808895;;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.banblock1{
+    width: 500px;
+}
+
+.bantitle{
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+.bantext{
+   font-size: 18px;
+   justify-content: space-between; 
+}
+
+.banbutton{
+    display: flex;
+    justify-content: center;
+    background-color: #2f9cc9;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100px;
+}
+
+.buttontext{
+    font-size: 18px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.banblock2{
+    height: auto;
+    max-width: 100%;
+}
+
+.core{
+    padding-top: 35px;
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+}
+
+.coretitle{
+    font-size: 36px;
+    font-weight: 1000;
+    width: auto;
+    text-align: center;
+}
+
+.coreblocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.coreblock{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.blockimage{
+    height: auto;
+}
+
+.blocktext{
+    text-align: center;
+}
+
+.footer{
+    background-color: #1e293d;
+    display: flex;
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: antiquewhite;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: center;
 }
